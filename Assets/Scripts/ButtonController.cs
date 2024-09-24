@@ -6,6 +6,7 @@ public class ButtonController : MonoBehaviour
 {
     public GameObject addPanel;
     public GameObject mainPanel;
+    public GameObject editPanel;
 
     public void ShowAddPanel()
     {
@@ -18,4 +19,17 @@ public class ButtonController : MonoBehaviour
         addPanel.SetActive(false);
         mainPanel.SetActive(true);
     }
+
+    public void ShowEditUIPanel()
+    {
+        mainPanel.SetActive(false);
+        editPanel.SetActive(true);
+    }
+
+    public void EdittoMainPanel()
+    {
+        editPanel.SetActive(false);
+        mainPanel.SetActive(true);
+    }
+
 }
