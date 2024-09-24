@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MainMode : MonoBehaviour
 {
+    [SerializeField] PlaceObjectOnPlane placeObjectOnPlane;
+
     void OnEnable()
     {
         UIController.ShowUI("Main");
     }
-
     // todo RAdd Main mode interactions
-
 }
