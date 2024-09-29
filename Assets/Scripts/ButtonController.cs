@@ -7,6 +7,7 @@ public class ButtonController : MonoBehaviour
     public GameObject addPanel;
     public GameObject mainPanel;
     public GameObject editPanel;
+    public GameObject selectImagePanel;
 
     public void ShowAddPanel()
     {
@@ -30,6 +31,18 @@ public class ButtonController : MonoBehaviour
     {
         editPanel.SetActive(false);
         mainPanel.SetActive(true);
+    }
+
+    public void SelectImagetoMainPanel()
+    {
+        selectImagePanel.SetActive(false);
+        mainPanel.SetActive(true);
+    }
+
+    public void ShowSelectImageUIPanel()
+    {
+        selectImagePanel.SetActive(true);
+        mainPanel.SetActive(false);
     }
 
 }

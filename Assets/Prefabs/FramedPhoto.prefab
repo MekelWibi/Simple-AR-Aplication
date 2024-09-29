@@ -148,6 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458223302551896535}
   - component: {fileID: 3538959620101626650}
+  - component: {fileID: 8659999171769732539}
   m_Layer: 0
   m_Name: FramedPhoto
   m_TagString: Untagged
@@ -155,14 +156,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4458223302551896535
-Transform:
+--- !u!224 &4458223302551896535
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7525716984017293524}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -171,6 +171,11 @@ Transform:
   - {fileID: 2479202720370768506}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3538959620101626650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,6 +190,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalerObject: {fileID: 2479202720370768506}
   imageObject: {fileID: 8170269817908482962}
+--- !u!222 &8659999171769732539
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7525716984017293524}
+  m_CullTransparentMesh: 1
 --- !u!1 &8170269817908482962
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8170269817908482962}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.06}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
