@@ -3770,6 +3770,7 @@ MonoBehaviour:
   defaultScale: 0.5
   placedPrefab: {fileID: 7525716984017293524, guid: 0a951c4691a76a643b1a97f8e960012e,
     type: 3}
+  addUICanvas: {fileID: 1301483071}
 --- !u!114 &1077583262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6492,6 +6493,7 @@ MonoBehaviour:
   defaultScale: 0.5
   placedPrefab: {fileID: 7525716984017293524, guid: 0a951c4691a76a643b1a97f8e960012e,
     type: 3}
+  addUICanvas: {fileID: 0}
 --- !u!1 &1972462661
 GameObject:
   m_ObjectHideFlags: 0

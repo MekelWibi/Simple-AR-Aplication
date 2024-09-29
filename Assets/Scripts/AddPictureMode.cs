@@ -8,6 +8,7 @@ public class AddPictureMode : MonoBehaviour
     public ImageInfo imageInfo;
     [SerializeField] float defaultScale = 0.5f;
     [SerializeField] GameObject placedPrefab;
+    [SerializeField] GameObject addUICanvas;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     void OnEnable()
     {
@@ -15,8 +16,12 @@ public class AddPictureMode : MonoBehaviour
     }
     public void OnPlaceObject(InputValue value)
     {
-        Vector2 touchPosition = value.Get<Vector2>();
-        PlaceObject(touchPosition);
+        if (addUICanvas.active)
+        {
+            Vector2 touchPosition = value.Get<Vector2>();
+            PlaceObject(touchPosition);
+        }
+
     }
     void PlaceObject(Vector2 touchPosition)
     {
