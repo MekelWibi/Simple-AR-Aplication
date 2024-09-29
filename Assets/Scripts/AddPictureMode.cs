@@ -29,19 +29,13 @@ public class AddPictureMode : MonoBehaviour
             Quaternion rotation = Quaternion.LookRotation(normal, Vector3.up);
             GameObject spawned = Instantiate(placedPrefab, hitPose.position,
             rotation);
+            FramedPhoto picture = spawned.GetComponent<FramedPhoto>();
+            picture.SetImage(imageInfo);
             // Find the Image object in the prefab
-            Transform imageTransform = spawned.transform.Find("Image");
+            //Transform imageTransform = spawned.transform.Find("FramedPhoto/AspectScaler/Image");
 
-            if (imageTransform != null)
-            {
-                Renderer imageRenderer = imageTransform.GetComponent<Renderer>();
-
-                if (imageRenderer != null && imageInfo.texture != null)
-                {
-                    // Set the chosen image texture to the Image object's material's base map
-                    imageRenderer.material.SetTexture("_BaseMap", imageInfo.texture);
-                }
-            }
+            //Renderer imageRenderer = imageTransform.GetComponent<Renderer>();
+            //imageRenderer.material.SetTexture("_BaseMap", imageInfo.texture);
             spawned.transform.localScale = new
             Vector3(defaultScale, defaultScale, 1.0f);
             InteractionController.EnableMode("Main");

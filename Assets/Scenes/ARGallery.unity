@@ -303,7 +303,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -314,11 +314,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -464,6 +479,8 @@ MonoBehaviour:
   mainPanel: {fileID: 541462452}
   editPanel: {fileID: 326418638}
   selectImagePanel: {fileID: 62897812}
+  addPicture: {fileID: 1077583261}
+  imagesData: {fileID: 2113230418}
 --- !u!4 &46821587
 Transform:
   m_ObjectHideFlags: 0
@@ -1161,7 +1178,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -1172,11 +1189,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -1427,7 +1459,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -1438,11 +1470,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -1950,7 +1997,6 @@ GameObject:
   - component: {fileID: 516569480}
   - component: {fileID: 516569479}
   - component: {fileID: 516569481}
-  - component: {fileID: 516569482}
   m_Layer: 5
   m_Name: Image Buttons
   m_TagString: Untagged
@@ -2048,24 +2094,6 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &516569482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516569477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecec7530249481d48851492c695f8cde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageButtonPrefab: {fileID: 4226897806583712479, guid: fb6dc34624ee3b3449d5cd403f484f14,
-    type: 3}
-  imagesData: {fileID: 2113230418}
-  addPicture: {fileID: 1945244820}
-  selectImagePanel: {fileID: 62897812}
-  addPanel: {fileID: 1301483071}
 --- !u!1 &518850169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,7 +2855,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -2838,11 +2866,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -3287,7 +3330,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -3298,11 +3341,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -3436,7 +3494,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -3447,11 +3505,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -4372,7 +4445,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -4383,11 +4456,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -6559,7 +6647,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -6570,11 +6658,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -6908,7 +7011,7 @@ PrefabInstance:
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
@@ -6919,11 +7022,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 516569477}
+      objectReference: {fileID: 46821586}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectImages0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6695209456723310793, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
